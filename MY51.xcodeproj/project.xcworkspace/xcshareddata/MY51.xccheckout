@@ -10,14 +10,14 @@
 	<string>MY51</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>F9057A1C0F1695383E8296CC0AF535E9E4153CED</key>
+		<key>18722162-6548-bd87-0c85-ce57b7db7bff++505</key>
 		<string>https://github.com/winhong/MY51.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>MY51.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>F9057A1C0F1695383E8296CC0AF535E9E4153CED</key>
+		<key>18722162-6548-bd87-0c85-ce57b7db7bff++505</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>F9057A1C0F1695383E8296CC0AF535E9E4153CED</string>
+	<string>18722162-6548-bd87-0c85-ce57b7db7bff++505</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>F9057A1C0F1695383E8296CC0AF535E9E4153CED</string>
+			<string>18722162-6548-bd87-0c85-ce57b7db7bff++505</string>
 			<key>IDESourceControlWCCName</key>
 			<string>MY51</string>
 		</dict>
