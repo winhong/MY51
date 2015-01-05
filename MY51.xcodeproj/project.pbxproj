@@ -14,6 +14,7 @@
 		680FAC1E1A5A82F200615AF4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 680FAC1D1A5A82F200615AF4 /* Images.xcassets */; };
 		680FAC211A5A82F200615AF4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 680FAC1F1A5A82F200615AF4 /* LaunchScreen.xib */; };
 		680FAC2D1A5A82F200615AF4 /* MY51Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 680FAC2C1A5A82F200615AF4 /* MY51Tests.m */; };
+		680FAC3A1A5A851200615AF4 /* MainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 680FAC381A5A851200615AF4 /* MainVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		680FAC261A5A82F200615AF4 /* MY51Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MY51Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		680FAC2B1A5A82F200615AF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		680FAC2C1A5A82F200615AF4 /* MY51Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MY51Tests.m; sourceTree = "<group>"; };
+		680FAC371A5A851200615AF4 /* MainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainVC.h; sourceTree = "<group>"; };
+		680FAC381A5A851200615AF4 /* MainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		680FAC0F1A5A82F200615AF4 /* MY51 */ = {
 			isa = PBXGroup;
 			children = (
+				680FAC361A5A851200615AF4 /* controllers */,
+				680FAC391A5A851200615AF4 /* modals */,
 				680FAC141A5A82F200615AF4 /* AppDelegate.h */,
 				680FAC151A5A82F200615AF4 /* AppDelegate.m */,
 				680FAC171A5A82F200615AF4 /* ViewController.h */,
@@ -117,6 +122,22 @@
 				680FAC2B1A5A82F200615AF4 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		680FAC361A5A851200615AF4 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				680FAC371A5A851200615AF4 /* MainVC.h */,
+				680FAC381A5A851200615AF4 /* MainVC.m */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		680FAC391A5A851200615AF4 /* modals */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = modals;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				680FAC191A5A82F200615AF4 /* ViewController.m in Sources */,
+				680FAC3A1A5A851200615AF4 /* MainVC.m in Sources */,
 				680FAC161A5A82F200615AF4 /* AppDelegate.m in Sources */,
 				680FAC131A5A82F200615AF4 /* main.m in Sources */,
 			);
@@ -412,6 +434,7 @@
 				680FAC321A5A82F200615AF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		680FAC331A5A82F200615AF4 /* Build configuration list for PBXNativeTarget "MY51Tests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +443,7 @@
 				680FAC351A5A82F200615AF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
